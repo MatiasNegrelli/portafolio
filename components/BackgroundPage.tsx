@@ -6,6 +6,7 @@ import { loadSlim } from "tsparticles-slim";
 import type { Engine } from "tsparticles-engine";
 
 const BackgroundPage = () => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [init, setInit] = useState(false);
 
   const particlesInit = useCallback(async (engine: Engine) => {
