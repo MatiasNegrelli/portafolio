@@ -17,7 +17,7 @@ export default function CounterServices() {
               } ${lineRightMobile && "border-e-gray-100"}`}
             >
               <p className="flex mb-2 text-2xl font-extrabold md:text-4xl text-green-500">
-                + <CountUp end={endCounter} start={0} duration={3} />
+                + <CountUp end={endCounter} start={0} delay={0} />
               </p>
               <p className="text-xs uppercase max-w-[100px]">{text}</p>
             </div>
