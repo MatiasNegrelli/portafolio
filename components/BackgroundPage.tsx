@@ -1,13 +1,12 @@
 "use client";
 
-import React, { useState, useCallback } from "react";
+import React, { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 import type { Engine } from "tsparticles-engine";
 
 const BackgroundPage = () => {
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const [init, setInit] = useState(false);
+  const [, setInit] = React.useState(false); // Desestructuramos sin usar 'init'
 
   const particlesInit = useCallback(async (engine: Engine) => {
     await loadSlim(engine);
