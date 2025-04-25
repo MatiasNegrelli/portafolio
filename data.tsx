@@ -95,7 +95,7 @@ export const dataCounter = [
   {
     id: 0,
     endCounter: 4,
-    text: "Años estudiando Ingeniería en Sistemas",
+    text: "Año actual de la carrera ingenieria en sistemas",
     lineRight: true,
     lineRightMobile: true,
   },
