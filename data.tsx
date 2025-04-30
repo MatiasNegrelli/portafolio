@@ -21,16 +21,6 @@ export const socialNetworks = [
     src: "https://www.linkedin.com/in/matias-negrelli/",
   },
   {
-    id: 3,
-    logo: <Twitter size={30} strokeWidth={1} />,
-    src: "https://x.com/Matias_Negrelli",
-  },
-  {
-    id: 4,
-    logo: <Instagram size={30} strokeWidth={1} />,
-    src: "https://www.instagram.com/matias_negrelli",
-  },
-  {
     id: 5,
     logo: <Mail size={30} strokeWidth={1} />,
     src: "mailto:matiasnegrelli2004@gmail.com",
